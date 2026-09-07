@@ -1,24 +1,4 @@
 # Mini Hospital Emergency Management System
-
-**Module:** CIT300 – Data Structures and Algorithms
-**Assignment:** Individual Mid Assignment
-**Student:** Asath (Index: 23DA2-0743)
-**Language:** Java (no external libraries — all data structures implemented manually)
-
-## Overview
-
-A console-based (menu-driven) system that simulates a hospital emergency
-department. It demonstrates four data structures, each implemented from
-scratch (no `java.util.Stack`, `java.util.Queue`, `java.util.LinkedList`,
-or `java.util.TreeMap` shortcuts):
-
-| Requirement | Data Structure | Class |
-|---|---|---|
-| Patient Records | Binary Search Tree | `PatientBST.java` |
-| Emergency Patient Queue | Queue (FIFO) | `EmergencyQueue.java` |
-| Treatment History | Stack (LIFO) | `TreatmentStack.java` |
-| Patient Visit History | Singly Linked List | `VisitHistory.java` |
-
 ## Project Structure
 
 ```
@@ -88,26 +68,3 @@ You'll see a main menu:
 6. Treatment History → Push a completed treatment, Display, then Pop.
 7. Visit History → Add a visit for a patient, Display, Search, Remove.
 
-## Testing
-
-The program was compiled with `javac` and exercised end-to-end (every
-menu operation across all four data structures, including empty-state
-and not-found edge cases) using a scripted input run before packaging.
-
-## Notes for Submission
-
-This README, together with the source code, is meant to be the starting
-point for the GitHub repository. Remember to:
-- Initialize `git init` in this folder and commit **progressively**
-  (e.g. "Created project structure", "Implemented patient BST", "Added
-  BST search and deletion", "Implemented emergency queue", "Implemented
-  treatment stack", "Implemented patient linked list", "Added testing",
-  "Updated README") rather than one final commit.
-- Push to your own GitHub account and submit the repo link via LMS.
-- Record the 5–10 minute demonstration video (face visible in the
-  intro), covering: intro → system overview → GitHub/commit history →
-  how each data structure is used → live demo of BST/Queue/Stack/Linked
-  List operations → design decisions → reflection.
-- Take screenshots of program output for the final submission.
-- If using Google Drive for large files, grant Edit access to
-  `asanka.r@sltc.ac.lk` and `kaushika.w@sltc.ac.lk`.
